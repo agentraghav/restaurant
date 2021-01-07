@@ -1,2 +1,3 @@
-import { navBar } from './nav';
-navBar();
+import { loadPage } from './nav';
+
+loadPage();
