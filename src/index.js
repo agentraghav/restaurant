@@ -1,1 +1,1 @@
-import { navBar } from '../src/nav';
+import { navBar } from './nav';
