@@ -1,3 +1,3 @@
 import { loadPage } from './nav';
 
-loadPage();
+window.loadPage = loadPage;
