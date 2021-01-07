@@ -1,2 +1,3 @@
-import { naviBar } from './nav';
-window.naviBar = naviBar;
+import { manage_page } from './nav.js';
+
+window.manage_page = manage_page;
