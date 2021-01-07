@@ -22,6 +22,8 @@ export const nav = (function () {
     </ul>
   </div>
   </nav>`;
+  let head = document.createElement('header');
+  head.appendChild(navi);
   let content = document.getElementById('content');
-  content.appendChild(navi);
+  content.appendChild(head);
 })();
