@@ -1,16 +1,28 @@
-import { home_page } from './home.js';
+const template = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Navbar</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</div>
+</nav>`;
 
-const template = `<ul style="list-style-type:none; margin:0; padding:0; overflow: hidden; background-color: chocolate; position: fixed; top:0; width: 100%;">
-<li style="float:right;" ><button onclick="manage_page.contact_page_function()" style="padding:15px 50px; font-size:18px;font-family: fantasy; cursor: pointer; background-color: chocolate; border: none;">Contact</button></li>
-<li style="float:right;" ><button onclick="manage_page.menu_page_function()" style="padding:15px 50px; font-size:18px;font-family: fantasy; cursor: pointer; background-color: chocolate; border: none;">Menu</button></li>
-<li style="float:right;" ><button onclick="manage_page.home_page_function()" style="padding:15px 50px; font-size:18px;font-family: fantasy; cursor: pointer; background-color: chocolate; border: none;">Home</button></li>
-</ul>`;
-
-document.getElementById('content').innerHTML = template + home_page();
-export const manage_page = (function () {
-  const home_page_function = function () {
-    document.getElementById('content').innerHTML = template + home_page();
-  };
-
-  return { home_page_function };
+export const nav = (function () {
+  const navi = document.createElement('div');
+  navi.appendChild(template);
+  document.getElementById('content').appendChild(navi);
 })();

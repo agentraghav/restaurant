@@ -1,3 +1,3 @@
-import { manage_page } from './nav.js';
+import { nav } from './nav.js';
 
-window.manage_page = manage_page;
+window.nav = nav;
