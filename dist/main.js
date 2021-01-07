@@ -1,1 +1,1 @@
-console.log("Hello World");
+(()=>{"use strict";(()=>{const a=document.querySelector("#content"),l=document.createElement("div");l.setAttribute("id","nav"),l.innerHTML=' <div class="navbar-header">\n<a class="navbar-brand page-scroll" href="#">Manas</a> \n</div> \n<div class="collapse navbar-collapse" id="myNav">\n<ul class=" nav navbar-nav pull-right">\n<li><a href="#about" class="page-scroll">About</a></li>\n<li><a href="#portfolio" class="page-scroll">Portfolio</a></li>\n<li><a href="#contact" class="page-scroll">Contact</a></li>\n</ul>\n</div>',a.appendChild(l)})()})();

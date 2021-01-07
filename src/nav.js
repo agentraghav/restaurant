@@ -1,4 +1,4 @@
-const navBar = () => {
+const navBar = (() => {
   const contentContainer = document.querySelector('#content');
   const menu = document.createElement('div');
   menu.setAttribute('id', 'nav');
@@ -12,5 +12,6 @@ const navBar = () => {
 <li><a href="#contact" class="page-scroll">Contact</a></li>
 </ul>
 </div>`;
-};
+  contentContainer.appendChild(menu);
+})();
 export { navBar };
