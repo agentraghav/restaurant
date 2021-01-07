@@ -26,4 +26,4 @@ function loadPage() {
   container.appendChild(nav);
 }
 
-export default loadPage;
+export { loadPage };
