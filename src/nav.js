@@ -1,4 +1,4 @@
-const navBar = (() => {
+function navBar() {
   const contentContainer = document.getElementById('content');
   const navi = document.createElement('div');
   navi.setAttribute('id', 'nav');
@@ -22,6 +22,6 @@ const navBar = (() => {
   </div>
 </nav>`;
   contentContainer.appendChild(navi);
-})();
+}
 
 export { navBar };
