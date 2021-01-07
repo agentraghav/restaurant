@@ -1,13 +1,9 @@
 export const nav = (function () {
   let navi = document.createElement('header');
-  navi.innerHTML = `<!--use nav to set yellow background color which will stretch with browser. use container to hold content, which stay in the middle-->
-  <nav id="header-nav" class="navbar navbar-default">
-    <!--bootstrap's "container": constrain to the middle-->
-    <!--bootstrap's "container-fluid": stretch to the edges of browser, you will see difference when browser is big-->
+  navi.innerHTML = `<nav id="header-nav" class="navbar navbar-default">
+    
     <div class="container">
       <div class="navbar-header">
-        <!--logo image: responsive design. disappear for small screen-->
-        <!--bootstrap's "pull-left": float left-->
         <a href="index.html" class="pull-left visible-md visible-lg">
           <div id="logo-img" alt="Logo image"></div>
       </a>
@@ -18,25 +14,19 @@ export const nav = (function () {
               <img src="https://usmile581.github.io/Bistro_Restaurant/images/star-k-logo.png" alt="Kosher certification">
               <span>Kosher Certified</span>
             </p>
-          </div>
-          <!--create a nav button for mobile (top right)(bootstrap)-->   
-          <!--"collapse" is in bootstrap.js.-->  
-          <!--data-target, and aria-expanded are for screen readers-->               <!--"#collapsable-nav": lower down, will include navigation menus-->    
+          </div>    
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <!--screen reader only-->  
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
         </div>
-<!--menus / navigation buttons-->       
-<div id="collapsable-nav" class="collapse navbar-collapse">
-           <!--nav navbar-nav: turn ul to nicely done menu-->  
-           <!--navbar-right: float navigation to the right-->  
+       
+<div id="collapsable-nav" class="collapse navbar-collapse">  
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-           <!--add "Home" to teh navbar-->    
+               
              <li class="visible-xs active">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span> Home</a>
@@ -58,12 +48,11 @@ export const nav = (function () {
               <a href="tel:410-602-5008">
                 <span>410-602-5008</span></a><div>* We Deliver</div>
             </li>
-          </ul><!-- #nav-list -->
-           
+          </ul>
       
-      </div><!-- .collapse .navbar-collapse -->
-     </div><!-- .container -->
-    </nav><!-- #header-nav -->`;
+      </div>
+     </div>
+    </nav>  `;
 
   let content = document.getElementById('content');
   content.appendChild(navi);
