@@ -22,7 +22,5 @@ const template = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
 </nav>`;
 
 export const nav = (function () {
-  const navi = document.createElement('div');
-  navi.appendChild(template);
-  document.getElementById('content').appendChild(navi);
+  document.getElementById('content').innerHTML = template;
 })();
