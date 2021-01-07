@@ -1,5 +1,2 @@
-import loadPage from './nav';
-init();
-function init() {
-  loadPage();
-}
+import { naviBar } from './nav';
+window.naviBar = naviBar;
