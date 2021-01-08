@@ -9,11 +9,7 @@ export const nav = (function () {
       </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="https://usmile581.github.io/Bistro_Restaurant/images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
-            </p>
+            <a href="index.html"><h1>Restaurant</h1></a>
           </div>    
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  

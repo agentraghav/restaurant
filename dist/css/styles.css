@@ -1,19 +1,30 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+
   font-family: 'Oxygen', sans-serif;
+
+  background-image: url('../images/food2.jpg');
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background: transparent;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('https://usmile581.github.io/Bistro_Restaurant/images/restaurant-logo_large.png')
+  background: url('https://image.freepik.com/free-vector/good-food-logo-template_79169-17.jpg')
     no-repeat;
   width: 150px;
   height: 150px;
