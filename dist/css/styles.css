@@ -4,7 +4,7 @@ body {
 
   font-family: 'Oxygen', sans-serif;
 
-  background-image: url('../images/food2.jpg');
+  background-image: url('../images/cafe.jpeg');
 
   /* Set a specific height */
   height: 100%;
@@ -37,12 +37,11 @@ body {
 
 .navbar-brand h1 {
   /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  font-family: 'Roboto', sans-serif;
+  color: #0d0c0a;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 0.75;
