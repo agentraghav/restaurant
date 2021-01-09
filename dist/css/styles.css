@@ -97,3 +97,19 @@ body {
   color: #fdc867;
   font-family: 'Sansita Swashed', cursive;
 }
+
+#about {
+  margin-top: 100px;
+}
+
+.about-cont {
+  margin-top: 20px;
+}
+
+.about-data {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #a57c61;
+  margin-top: 50px;
+}
