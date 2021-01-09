@@ -5,28 +5,17 @@ export const nav = (function () {
     <div class="container">
       <div class="navbar-header">
         <a href="index.html" class="pull-left visible-md visible-lg">
-          <div id="logo-img" alt="Logo image"></div>
+        <img src="../dist/images/burger.png" id="logo-img"> 
       </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>Restaurant</h1></a>
+            <a href="index.html"><h1>Burger <span class="king">King</span></h1></a>
           </div>    
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">  
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
         </div>
        
 <div id="collapsable-nav" class="collapse navbar-collapse">  
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-               
-             <li class="visible-xs active">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
-            </li> 
+                
              
             <li>
               <a href="menu-categories.html">
@@ -38,11 +27,7 @@ export const nav = (function () {
             </li>
             <li>
               <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
+                <span class="glyphicon glyphicon-phone-alt"></span><br class="hidden-xs"> Contact</a>
             </li>
           </ul>
       
