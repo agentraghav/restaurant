@@ -15,18 +15,18 @@ export const nav = (function () {
        
 <div id="collapsable-nav" class="collapse navbar-collapse">  
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-                
+           <li>
+           <a href="#about">
+             <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+         </li>    
              
             <li>
-              <a href="menu-categories.html">
+              <a href="#menu">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
+            
             <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
+              <a href="#contact">
                 <span class="glyphicon glyphicon-phone-alt"></span><br class="hidden-xs"> Contact</a>
             </li>
           </ul>
