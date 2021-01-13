@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "restaurant page",
   "main": "index.js",
-  "homepage": "https://agentraghav.github.io/restaurant/",
+  "homepage": "https://agentraghav.github.io/restaurant/dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
